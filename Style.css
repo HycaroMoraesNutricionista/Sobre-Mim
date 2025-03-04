@@ -91,7 +91,7 @@ section {
 
 
 .home-container { 
-    background-image: url("Imagens/capax.png");
+    background-image: url("Imagens/capa.png");
     width: 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -200,12 +200,10 @@ flex-direction: column; }
  }
 
  .beneficios{ 
-    
     gap: 7px;
     display: flex;
     align-items: center;
     justify-content: center;
-
 
     text-align: center;
     color:#fff;
