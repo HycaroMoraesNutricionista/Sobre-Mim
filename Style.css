@@ -89,11 +89,14 @@ section {
 
 }
 
+
 .home-container { 
-    background:  url("./Imagens/capa.png")  no-repeat;
-    width: 600;
+    background-image: url("Imagens/capax.png");
+    width: 100%;
+    background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    margin-top: -80px;
+    
 }
 
 .home-container section { 
@@ -102,12 +105,23 @@ section {
     min-height: 100vh;
 }
 
+.content{ 
+    margin-top: 200px;
+}
+
 
 .content h3 { 
     color: #6acaa0;
     font-size: 3rem;
 }
 
+.sobre p { 
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 100;
+    line-height: 1.8;
+     
+}
 .content p { 
     color: #fff;
     font-size: 2rem;
@@ -186,10 +200,12 @@ flex-direction: column; }
  }
 
  .beneficios{ 
+    
     gap: 7px;
     display: flex;
     align-items: center;
     justify-content: center;
+
 
     text-align: center;
     color:#fff;
