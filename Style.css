@@ -114,6 +114,7 @@ section {
     font-size: 1.6rem;
     font-weight: 100;
     line-height: 1.8;
+    
      
 }
 .content p { 
@@ -628,3 +629,32 @@ h1 {
     margin-right: auto; /* Empurra a div para a esquerda, resultando na centralização */
     
  }
+
+
+.mom {
+    text-align: center;
+    color:#fff;
+    padding: 2rem;
+    font-size: 1.6rem;
+}
+
+.logos-container {
+  display: flex;
+  justify-content: center;  /* Centraliza horizontalmente */
+  align-items: center;       /* Alinha verticalmente */
+  flex-wrap: wrap;           /* Quebra linha em telas menores */
+  gap: 20px;                 /* Espaçamento entre logos */
+  padding: 20px;
+  background-color: #000;    /* Fundo preto igual à imagem */
+}
+
+.logos-container img {
+  height: 80px;              /* Tamanho fixo proporcional */
+  object-fit: contain;       /* Mantém proporção da imagem */
+  transition: transform 0.3s ease;
+}
+
+.logos-container img:hover {
+  transform: scale(1.1);     /* Pequeno zoom ao passar o mouse */
+}
+
