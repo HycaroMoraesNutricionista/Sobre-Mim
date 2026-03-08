@@ -3,262 +3,303 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hycaro Moraes Nutricionista</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="Style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Hycaro Moraes | Nutrição Esportiva</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <script src="https://unpkg.com/scrollreveal"></script>
     <link rel="icon" href="Imagens/logo-guia.png" type="image/x-icon">
 
-
-
+    <link rel="stylesheet" href="style.css">
+    <link rel="script" href="script.js">
 </head>
 
-<body class="celular">
-    <header class="header">
-        <section>
+<body>
+
+    <header id="header">
+        <div class="container header-container">
             <a href="#" class="logo">
-                <img width="135" src="./Imagens/logo.png" alt="logo"> </a>
-            <nav class="navbar">
-                <a href="#home">Home</a>
-                <a href="#about">Sobre mim</a>
-                <a href="#menu">Ebook</a>
-                <a href="#review">Avaliações</a>
-                <a href="#andress">Endereço</a>
-                <a href="#contact">Contato</a>
+                <img width="100" src="./Imagens/logog.png" alt="logo"> </a>
+            </a>
+            <div class="menu-toggle" id="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+            <nav class="nav-container">
+                <ul class="nav-list">
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="#servicos" class="nav-link">Planos</a></li>
+                    <li><a href="#app" class="nav-link">App</a></li>
+                    <li><a href="#parceiros" class="nav-link">Vantagens</a></li>
+                    <li><a href="#avaliacoes" class="nav-link">Depoimentos</a></li>
+                    <li><a href="#ebook" class="nav-link">Ebook</a></li>
+                    <li><a href="#endereco" class="nav-link">Local</a></li>
+                    <li><a href="#contato-box" class="btn-nav">Fale Comigo</a></li>
+                </ul>
             </nav>
-        </section>
+        </div>
     </header>
 
-    <section id="home" class="hero-section">
-        <div class="container">
-            <img class="alinhhome"  src="Imagens/3333.png" alt="CAPA PRINCIPAL">
-            <h1>Nutricionista Clínico, Esportivo, Emagrecimento, Performance, Bem-estar, Saúde e Qualidade de Vida.
-                <strong class="negrito">CRN4-24100354</strong> </br>
-                ATENDIMENTO PRESENCIAL E ONLINE
-            </h1>
-            <a href="https://api.whatsapp.com/send/?phone=5522997606384&text&type=phone_number&app_absent=0"
-                class="cta-button">AGENDE SUA CONSULTA</a>
-
-        </div>
-    </section>
-
-
-    <div>
-        <h3 class="title"> BENEFÍCIOS </h3>
-    </div>
-    <div class="beneficios">
-
-        <img width="40" height="40"
-            src="https://img.icons8.com/external-victoruler-solid-victoruler/64/6acaa0/external-slim-body-cosmetic-surgery-victoruler-solid-victoruler-1.png"
-            alt="external-slim-body-cosmetic-surgery-victoruler-solid-victoruler-1" />
-        <h2>Emagrecimento</h2>
-
-        <img width="40" height="40" src="https://img.icons8.com/ios-filled/50/6acaa0/fit.png" alt="fit" />
-        <h2>Ganho de Massa Muscular</h2>
-
-    </div>
-
-    <div class="beneficios">
-        <img width="40" height="40" src="https://img.icons8.com/ios-filled/50/6acaa0/heart-with-pulse--v1.png"
-            alt="heart-with-pulse--v1" />
-        <h2>Bem-estar e Qualidade de Vida</h2>
-
-        <img width="40" height="40" src="https://img.icons8.com/ios-filled/50/6acaa0/exercise.png" alt="exercise" />
-        <h2>Performance e Desempenho</h2>
-
-    </div>
-
-    <div class="beneficios">
-        <img width="40" height="40"
-            src="https://img.icons8.com/external-vitaliy-gorbachev-fill-vitaly-gorbachev/60/6acaa0/external-salad-stay-home-vitaliy-gorbachev-fill-vitaly-gorbachev.png"
-            alt="external-salad-stay-home-vitaliy-gorbachev-fill-vitaly-gorbachev" />
-        <h2>Alimentação Personalizada</h2>
-
-        <img width="40" height="40" src="https://img.icons8.com/ios-filled/50/6acaa0/trophy.png" alt="trophy" />
-        <h2>Motivação e Suporte Contínuo</h2>
-
-    </div>
-
-    <div class="beneficios">
-        <img width="40" height="40"
-            src="https://img.icons8.com/external-tanah-basah-glyph-tanah-basah/48/6acaa0/external-mobile-sport-tanah-basah-glyph-tanah-basah.png"
-            alt="external-mobile-sport-tanah-basah-glyph-tanah-basah" />
-        <h2>Aplicativo de Monitoramento Alimentar</h2>
-
-        <img width="40" height="40" src="https://img.icons8.com/ios-filled/50/6acaa0/collaboration.png"
-            alt="collaboration" />
-        <h2>Comunicação Clara e Empática </h2>
-
-    </div>
-    </div>
-
-    <div>
-        <h3 class="title"> MONITORAMENTO </h3>
-
-        <img class="cente" width="400" src="Imagens/02.png" alt="APP">
-
-        <div class="mom">
-            <P>
-                <strong class="negrito">Tudo na Palma da Mão:</strong><br>
-                Tenha seu plano alimentar sempre acessível, a qualquer hora e lugar.<br>
-
-                <strong class="negrito">Diário Alimentar Inteligente:</strong><br>
-                Use o diário fotográfico para registrar suas refeições. Isso permite que nutricionista
-                acompanhe em tempo real sua rotina e a adaptação ao plano, garantindo ajustes precisos.<br>
-
-                <strong class="negrito">Menu Principal Intuitivo:</strong><br>
-                Acesso rápido a todos os seus recursos: arquivos e materiais extras, evolução fotográfica, evolução
-                física (pesos e medidas), chat direto com o Nutricionista. <br>
-
-                <strong class="negrito">⚠️BÔNUS EXCLUSIVO: SUPORTE VIA WHATSAPP:⚠️</strong><br>
-                Para um acompanhamento ainda mais cuidadoso e próximo, tire dúvidas e tenha respostas rápidas. Um canal
-                direto para garantir que você atinja seus objetivos! <br>
-
-            </P>
-                    <img class="cente" width="280" src="Imagens/Coupon.png" alt="cupom">  
-                
-                <div class="logos-container"> 
-                    <a href="https://www.vitafor.com.br/"> <img class="cente" width="80" src="Imagens/VITAFOR.png" alt="cupom"> </a>
-                    <a href="https://www.nutrify.com.br/"><img class="cente" width="80" src="Imagens/nutrify-logo.png" alt="cupom"></a>
-                    <a href="https://www.instagram.com/temperart.nat/"> <img class="cente" width="100" src="Imagens/temper.png" alt="cupom"> </a>
-                    <a href="https://www.puravida.com.br/"><img class="cente" width="150" src="Imagens/PURAVIDA.png" alt="cupom"></a>
-                    <a href="https://www.biomagistral.com/"><img class="cente" width="150" src="Imagens/BIOMAGISTRAL.png" alt="cupom"></a>
-                    <a href="https://www.instagram.com/itapharmasuplementos/"><img class="cente" width="150" src="Imagens/ITAPHARMA.jpg" alt="cupom"></a>
-                    <a href="https://www.topwayfit.com.br/"> <img class="cente" width="150" src="Imagens/TOPWHAY.jpg" alt="cupom"> </a>
-                    <a href="https://lovenuts.com.br/"> <img class="cente" width="150" src="Imagens/logo-love.png" alt="cupom"> </a>
+    <main>
+        <section id="home" class="hero">
+            <div class="container hero-grid">
+                <div class="hero-image reveal-right">
+                    <div class="image-wrapper glow-effect">
+                        <img src="Imagens/3333.png" alt="Hycaro Moraes Nutricionista">
+                    </div>
                 </div>
-            
-        </div>
-
-    </div>
-
-
-    <section class="about" id="about">
-        <h3 class="title"> SOBRE MIM </h3>
-        <div class="row">
-            <div class="conteiner-image">
-                <img width="300" src="./Imagens/about-img.png" alt="sobre-mim">
-            </div>
-
-            <div class="sobre">
-                <P>Nutricionista, formado em janeiro de 2024, e desde março do mesmo ano atuando tanto na prática
-                    clínica quanto na esportiva.<br>
-                    Acredito que a alimentação deve ser um suporte para a saúde e o bem-estar de
-                    cada pessoa, por isso, busco sempre entender as necessidades individuais de quem me procura.<br>
-                    Além da graduação, tenho pós-graduação nas áreas de Nutrição Clínica, Nutrição Esportiva e Exames
-                    Laboratoriais, o que me permite oferecer um atendimento mais completo e personalizado.<br>
-                    Meu objetivo é ajudar meus pacientes a alcançarem seus objetivos de forma saudável, seja no dia a
-                    dia ou na busca por
-                    uma melhor performance no esporte. <br>
-                    Gosto de trabalhar com foco na prevenção, performance e claro, no prazer de comer bem.<br>
-                    Estou sempre buscando mais conhecimento para oferecer o melhor acompanhamento possível e fazer com
-                    que cada pessoa se sinta bem e confiante com suas escolhas alimentares. </P>
-            </div>
-
-    </section>
-
-    <section class="menu" id="menu">
-        <h3 class="title">EBOOK</h3>
-        <div class="conteiner-image">
-            <img width="300" src="./Imagens/ebook23.png" alt="ebook">
-        </div>
-        <div class="ebook">
-            <a href="https://moraes-hycaro.hotmart.host/pagina-de-vendas-21fb4aa5-9782-479f-ba10-d613786d58cc"
-                class="btn" id="lado">COMPRAR AGORA
-            </a>
-            <p>EBOOK - Receitas e Recomendações Nutricionais: mais saúde e prazer na sua alimentação.
-                Aprenda a fazer escolhas alimentares mais saudáveis sem abrir mão do prazer de comer bem. Descubra
-                receitas irresistíveis e orientações práticas para uma alimentação equilibrada.</p>
-        </div>
-    </section>
-
-    <section class="review" id="review">
-        <script src="https://static.elfsight.com/platform/platform.js" async></script>
-        <div class="elfsight-app-f805fb33-f9ca-4573-9d3d-75a9477e1a0a" data-elfsight-app-lazy></div>
-    </section>
-
-    <section class="andress" id="andress">
-        <h2 class="title">MEU ENDEREÇO</h2><br>
-
-        <div class="carrossel">
-            <div class="carrossel-faixa">
-                <!-- Repetição das imagens para criar loop contínuo -->
-                <img src="Imagens/00.JPG" alt="0">
-                <img src="Imagens/2.jpeg" alt="2">
-                <img src="Imagens/3.jpeg" alt="3">
-                <img src="Imagens/00.JPG" alt="0">
-                <img src="Imagens/2.jpeg" alt="2">
-                <img src="Imagens/3.jpeg" alt="3">
-
-
-                <!-- Repetidas novamente para loop contínuo -->
-                <img src="Imagens/00.JPG" alt="0">
-                <img src="Imagens/2.jpeg" alt="2">
-                <img src="Imagens/3.jpeg" alt="3">
-                <img src="Imagens/00.JPG" alt="0">
-                <img src="Imagens/2.jpeg" alt="2">
-                <img src="Imagens/3.jpeg" alt="3">
-
-            </div>
-        </div>
-
-        <div class="copy">
-            Av. Tancredo Lopes - Centro comercial COMVACA, Santa Terezinha, Natividade - RJ, 28380-000
-        </div>
-        <div class="end">
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d516.788879448708!2d-41.959609676209936!3d-21.048600517044346!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xbc887ff8de03f5%3A0xa96c7107c7141f23!2sCOMVACA!5e0!3m2!1spt-BR!2sbr!4v1740696155051!5m2!1spt-BR!2sbr"
-                width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-
-
-    </section>
-
-    <section class="contact" id="contact">
-        <h3 class="title">ENTRE EM CONTATO</h3>
-
-        <div class="contact-section-nutri">
-            <div class="contact-content-nutri">
-                <h2>FALE COM O NUTRI</h2>
-                <p>Estou à disposição para te ajudar a alcançar seus objetivos de saúde e bem-estar. Agende sua consulta
-                    ou tire suas dúvidas! Escolha a forma de
-                    contato que preferir:</p>
-
-                <div class="info-item-nutri">
-                    <i class="fas fa-phone-alt"></i>
-                    <p>(22)997606384</p>
-                </div>
-                <div class="info-item-nutri">
-                    <i class="fab fa-whatsapp"></i>
-                    <p><a href="https://api.whatsapp.com/send/?phone=5522997606384&text&type=phone_number&app_absent=0"
-                            target="_blank">Enviar WhatsApp</a></p>
-                </div>
-                <div class="info-item-nutri">
-                    <i class="fas fa-envelope"></i>
-                    <p><a href="mailto:Moraes.hycaro@gmail.com">Moraes.hycaro@gmail.com</a></p>
-                </div>
-
-                <div class="social-media-nutri">
-                    <h3>ME SIGA NO INSTAGRAM</h3>
-                    <a href="https://www.instagram.com/nutrihycaromoraes/">
-                        <img width="35" height="35"
-                            src="https://img.icons8.com/ios-filled/50/6acaa0/instagram-new--v1.png"
-                            alt="instagram-new--v1" /></a>
+                <div class="hero-content">
+                    <span class="badge reveal-left">CRN4-24100354</span>
+                    <p class="reveal-up delay-200">Nutricionista Clínico, Esportivo, Emagrecimento, Performance,
+                        Bem-estar, Saúde e Qualidade de Vida.<br>
+                        ATENDIMENTO PRESENCIAL E ONLINE</p>
+                    <div class="buttons reveal-up delay-400">
+                        <a href="https://api.whatsapp.com/send/?phone=5522997606384&text&type=phone_number&app_absent=0"
+                            target="_blank" class="btn btn-primary icon-btn">
+                            <i class="fab fa-whatsapp"></i> Agendar Agora
+                        </a>
+                        <a href="#servicos" class="btn btn-outline">Ver Planos</a>
+                    </div>
                 </div>
             </div>
-        </div>
+        </section>
 
-    </section>
+        <section id="servicos" class="services section-padding">
+            <div class="container">
+                <div class="section-header reveal-up">
+                    <span class="subtitle">Metodologia</span>
+                    <h2>Meus Planos</h2>
+                </div>
+                <div class="cards-grid">
+                    <div class="card reveal-up">
+                        <i class="fas fa-fire-alt"></i>
+                        <h3>Emagrecimento</h3>
+                        <p>Definição muscular sem passar fome.</p>
+                    </div>
+                    <div class="card reveal-up delay-100">
+                        <i class="fas fa-dumbbell"></i>
+                        <h3>Hipertrofia</h3>
+                        <p>Estratégias para ganho de volume.</p>
+                    </div>
+                    <div class="card reveal-up delay-200">
+                        <i class="fas fa-heartbeat"></i>
+                        <h3>Saúde</h3>
+                        <p>Controle de taxas e longevidade.</p>
+                    </div>
+                    <div class="card reveal-up delay-300">
+                        <i class="fas fa-bolt"></i>
+                        <h3>Performance</h3>
+                        <p>Ajustes finos para atletas de elite.</p>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
 
-    <div class="logodev"> <a href="https://www.instagram.com/sodrefr/"> <img width="30" src="Imagens/logodev.png" />
-        </a> </div>
+        <section id="app" class="app-section section-padding">
+            <div class="container app-grid">
 
-    <p class="tam">Copyright © 2025</p>
+                <div class="app-content reveal-right">
+                    <span class="subtitle">Exclusivo</span>
+                    <h2>Controle Total na Palma da Mão</h2>
 
+                    <div class="app-image reveal-left">
+                        <img src="/Imagens/02.png" alt="App de Nutrição">
+                    </div>
+                    <p>Meu aplicativo exclusivo garante que você nunca perca o foco.</p>
+                    <ul class="app-features">
+                        <li><i class="fas fa-check-circle"></i> Dieta offline disponível 24h</li>
+                        <li><i class="fas fa-check-circle"></i> Alimentação Personalizada</li>
+                        <li><i class="fas fa-camera"></i> Diário alimentar fotográfico</li>
+                        <li><i class="fas fa-comments"></i> Chat direto com o Nutri</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
 
+        <section id="parceiros" class="partners-section section-padding">
+            <div class="container">
+                <div class="section-header reveal-up">
+                    <span class="subtitle">Clube de Benefícios</span>
+                    <h2>Descontos Exclusivos</h2>
+                    <div class="coupon-wrapper">
+                        <img src="./Imagens/Coupon.png" alt="Cupons de Descontos Exclusivos para Pacientes"
+                            class="coupon-banner">
+                    </div>
+                </div>
+
+                <div class="partners-grid">
+                    <div class="partner-card reveal-up delay-100"><img src="Imagens/VITAFOR.png" alt="Vitafor"></div>
+                    <div class="partner-card reveal-up delay-200"><img src="Imagens/nutrify-logo.png" alt="Nutrify">
+                    </div>
+                    <div class="partner-card reveal-up delay-300"><img src="Imagens/temper (2).png" alt="Temper Art">
+                    </div>
+                    <div class="partner-card reveal-up delay-400"><img src="Imagens/PURAVIDA.png" alt="Pura Vida"></div>
+                    <div class="partner-card reveal-up delay-100"><img src="Imagens/BIOMAGISTRAL.png"
+                            alt="Biomagistral"></div>
+                    <div class="partner-card reveal-up delay-200"><img src="Imagens/ITAPHARMA.png" alt="Itapharma">
+                    </div>
+                    <div class="partner-card reveal-up delay-300"><img src="Imagens/TOPWHAY.png" alt="Topway"></div>
+                    <div class="partner-card reveal-up delay-400"><img src="Imagens/logo-love.png" alt="Love Nuts">
+                    </div>
+                </div>
+
+                <div class="cta-coupon reveal-up">
+                    <p><i class="fas fa-ticket-alt"></i> Torne-se paciente e desbloqueie todos os códigos.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="avaliacoes" class="reviews-section section-padding">
+            <div class="container">
+                <div class="section-header reveal-up">
+                    <span class="subtitle">Feedback</span>
+
+                </div>
+
+                <div class="reviews-container">
+                    <div class="review-summary reveal-left">
+                        <section class="review" id="review">
+                            <script src="https://static.elfsight.com/platform/platform.js" async></script>
+                            <div class="elfsight-app-f805fb33-f9ca-4573-9d3d-75a9477e1a0a" data-elfsight-app-lazy></div>
+                        </section>
+                    </div>
+
+                    <section id="ebook" class="ebook-section section-padding">
+                        <div class="container ebook-container">
+                            <h2 class="ebook-title reveal-up">EBOOK</h2>
+
+                            <div class="ebook-cover-wrapper reveal-up">
+                                <img src="./Imagens/ebook23-Photoroom.png" alt="Ebook Receitas e Recomendações"
+                                    class="ebook-img">
+                            </div>
+
+                            <div class="ebook-content reveal-up">
+                                <a href="https://moraes-hycaro.hotmart.host/pagina-de-vendas-21fb4aa5-9782-479f-ba10-d613786d58cc"
+                                    target="_blank" class="btn btn-ebook">
+                                    COMPRAR AGORA
+                                </a>
+
+                                <div class="ebook-text">
+                                    <p><strong>EBOOK - Receitas e Recomendações Nutricionais:</strong> mais saúde e
+                                        prazer na sua alimentação.</p>
+                                    <p>Aprenda a fazer escolhas alimentares mais saudáveis sem abrir mão do prazer de
+                                        comer bem. Descubra receitas irresistíveis e orientações práticas para uma
+                                        alimentação equilibrada.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section id="sobre " class="about section-padding linha-divisoria  ">
+                        <div class="container about-grid">
+                            <div class="about-content reveal-left">
+                                <span class="subtitle">Sobre mim</span>
+                                <div class="about-image reveal-right">
+
+                                </div>
+                                <img src="./Imagens/about-img.png" alt="Hycaro Moraes">
+                                <p>Nutricionista, formado em janeiro de 2024, e desde março do mesmo ano atuando tanto
+                                    na prática clínica quanto na esportiva.
+                                    Acredito que a alimentação deve ser um suporte para a saúde e o bem-estar de cada
+                                    pessoa, por isso, busco sempre entender as necessidades individuais de quem me
+                                    procura.
+                                    Além da graduação, tenho pós-graduação nas áreas de Nutrição Clínica, Nutrição
+                                    Esportiva e Exames Laboratoriais, o que me permite oferecer um atendimento mais
+                                    completo e personalizado.
+                                    Meu objetivo é ajudar meus pacientes a alcançarem seus objetivos de forma saudável,
+                                    seja no dia a dia ou na busca por uma melhor performance no esporte.
+                                    Gosto de trabalhar com foco na prevenção, performance e claro, no prazer de comer
+                                    bem.
+                                    Estou sempre buscando mais conhecimento para oferecer o melhor acompanhamento
+                                    possível e fazer com que cada pessoa se sinta bem e confiante com suas escolhas
+                                    alimentares.</p>
+                            </div>
+
+                        </div>
+                    </section>
+
+                    <section id="endereco" class="address-section ">
+                        <div class="container">
+                            <div class="section-header reveal-up">
+                                <span class="subtitle">Localização</span>
+                                <h2>Meu Endereço</h2>
+                            </div>
+
+                            <div class="address-grid">
+                                <div class="location-photos reveal-left">
+                                    <img src="./Imagens/00.JPG" alt="Consultório 1" class="photo-main">
+                                    <div class="photo-thumbs">
+                                        <img src="./Imagens/2.jpeg" alt="Consultório 2">
+                                        <img src="./Imagens/3.jpeg" alt="Consultório 3">
+                                        <img src="./Imagens/HYCARO MORAES-214.jpg" alt="Consultório 4">
+                                    </div>
+                                </div>
+
+                                <div class="location-info reveal-right">
+                                    <div class="address-card">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                        <p><strong>Av. Tancredo Lopes - Centro Comercial COMVACA</strong><br>
+                                            Santa Terezinha, Natividade - RJ<br>
+                                            CEP: 28380-000</p>
+                                    </div>
+                                    <div class="map-container">
+                                        <iframe
+                                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3707.954388656157!2d-41.9760!3d-21.0425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjHCsDAyJzMzLjAiUyA0McKwNTgnMzMuNiJX!5e0!3m2!1spt-BR!2sbr!4v1620000000000!5m2!1spt-BR!2sbr"
+                                            width="100%" height="250" style="border:0;" allowfullscreen=""
+                                            loading="lazy"></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section id="contato-box" class="contact-box-section reveal-up">
+                        <div class="container">
+                            <div class="contact-card-wrapper">
+                                <h2>FALE COM O NUTRI</h2>
+                                <p>Estou à disposição para te ajudar a alcançar seus objetivos de saúde e bem-estar.
+                                    Agende sua consulta ou tire suas dúvidas!</p>
+
+                                <div class="contact-phone">
+                                    <i class="fas fa-phone-alt"></i> (22) 99760-6384
+                                </div>
+
+                                <div class="contact-buttons">
+                                    <a href="https://api.whatsapp.com/send/?phone=5522997606384&text&type=phone_number&app_absent=0"
+                                        target="_blank" class="btn btn-contact-full">
+                                        <i class="fab fa-whatsapp"></i> Enviar WhatsApp
+                                    </a>
+
+                                    <a href="mailto:Moraes.hycaro@gmail.com" class="btn btn-contact-full">
+                                        <i class="far fa-envelope"></i> Enviar Email
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <footer id="footer-main">
+                        <div class="container footer-content">
+
+                            <div class="copyright">
+                                <p>&copy; 2025 Hycaro Moraes. Todos os direitos reservados.</p>
+        
+                            </div>
+
+                            <div class="logodev"> <a href="https://www.instagram.com/sodrefr/"> <img width="30"
+                                    src="Imagens/logodev.png" />
+                            </a> </div>
+                            
+                        </div>
+
+                        
+
+                    </footer>
+
+    </main>
+    <script src="script.js"></script>
 </body>
 
 </html>
